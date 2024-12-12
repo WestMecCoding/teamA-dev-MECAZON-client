@@ -1,4 +1,4 @@
-export default function SignupSvg() {
+export default function Signup() {
   return (
     <svg
       height="512px"

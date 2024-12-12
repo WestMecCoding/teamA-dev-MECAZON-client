@@ -2,10 +2,8 @@ import styles from "../styles/Navbar.module.css";
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
 import LogoLG from "./LogoLG.jsx";
-import LogoSM from "./LogoSM.jsx";
-import LogoMD from "./LogoMD.jsx";
-import SignupSvg from "./SignupSvg.jsx";
-// import Cart from "./CartSvg.jsx";
+// import Signup from "./Signup.jsx";
+// import Cart from "./Cart.jsx";
 
 export default function Navbar() {
   return (
@@ -14,10 +12,8 @@ export default function Navbar() {
       <Link to="/">Home</Link>
       <Link to="/">Products</Link>
       <SearchBar />
-      <Link to="/">
-        <Signup />
-      </Link>
-      <Link to="/">{/* <Cart /> */}</Link>
+      <Link to="/">{/* <Signup /> */}Sign-up</Link>
+      <Link to="/">{/* <Cart /> */}Cart</Link>
     </nav>
   );
 }
