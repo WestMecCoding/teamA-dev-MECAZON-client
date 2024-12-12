@@ -13,6 +13,7 @@ export default function Navbar() {
       <Link to="/">Products</Link>
       <SearchBar />
       <Link to="/">Sign-Up/Log-in</Link>
+      
       <Link to="/">Cart</Link>
     </nav>
   );
