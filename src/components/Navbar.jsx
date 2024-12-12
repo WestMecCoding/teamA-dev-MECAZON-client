@@ -4,6 +4,8 @@ import SearchBar from "./SearchBar.jsx";
 import LogoLG from "./LogoLG.jsx";
 import LogoSM from "./LogoSM.jsx";
 import LogoMD from "./LogoMD.jsx";
+import SignupSvg from "./SignupSvg.jsx";
+// import Cart from "./CartSvg.jsx";
 
 export default function Navbar() {
   return (
@@ -12,8 +14,10 @@ export default function Navbar() {
       <Link to="/">Home</Link>
       <Link to="/">Products</Link>
       <SearchBar />
-      <Link to="/">Sign-Up/Log-in</Link>
-      <Link to="/">Cart</Link>
+      <Link to="/">
+        <Signup />
+      </Link>
+      <Link to="/">{/* <Cart /> */}</Link>
     </nav>
   );
 }
