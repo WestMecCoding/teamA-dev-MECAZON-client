@@ -1,6 +1,10 @@
 .nav {
-  background-color: #333;
+  background-color: #0e3249;
+  height: 10vh;
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav a {
