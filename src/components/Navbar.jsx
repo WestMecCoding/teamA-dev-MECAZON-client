@@ -1,11 +1,15 @@
 import styles from "../styles/Navbar.module.css";
 import { Link } from "react-router-dom";
-import Logo from "./logo.jsx";
+import LogoLG from "./LogoLG.jsx";
+import LogoSM from "./LogoSM.jsx";
+import LogoMD from "./LogoMD.jsx";
 
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-      <Logo />
+      <LogoLG />
+      <LogoMD />
+      <LogoSM />
       <Link to="/">Home</Link>
     </nav>
   );
