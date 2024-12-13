@@ -1,13 +1,23 @@
+import React, { useState } from "react";
 import styles from "../styles/Catagories.module.css";
 
 export default function Catagories() {
   return (
     <nav>
-      <a href="">Mens</a>
-      <a href="">Womens</a>
-      <a href="">Sports</a>
-      <a href="">Office Supplies</a>
-      <a href="">blahh</a>
+      <ul className="navbar">
+        <li>
+          <a href="#">Furniture</a>
+        </li>
+        <li>
+          <a href="#">Offic supplies</a>
+        </li>
+        <li>
+          <a href="#">Travel</a>
+        </li>
+        <li>
+          <a href="#">electronics</a>
+        </li>
+      </ul>
     </nav>
   );
 }
