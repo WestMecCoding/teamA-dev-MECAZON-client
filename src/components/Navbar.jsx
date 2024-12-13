@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar.jsx";
 import Catagories from "./Catagories.jsx";
 import LogoLG from "./LogoLG.jsx";
 // import Signup from "./Signup.jsx";
-// import Cart from "./Cart.jsx";
+import Cart from "./Cart.jsx";
 
 export default function Navbar() {
   return (
@@ -19,10 +19,10 @@ export default function Navbar() {
         </Link>
         <SearchBar />
         <Link to="/" className={styles.link}>
-          {/* <Signup /> */}Sign-up
+          <Cart />
         </Link>
         <Link to="/" className={styles.link}>
-          {/* <Cart /> */}Cart
+          {/* <Signup /> */}Sign-up
         </Link>
       </nav>
 

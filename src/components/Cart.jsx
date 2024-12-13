@@ -1,37 +1,49 @@
 export default function Cart() {
   return (
     <svg
-      height="20px"
-      version="1.1"
-      viewBox="0 0 20 20"
-      width="20px"
+      height="50"
+      viewBox="0 0 137 119"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <title />
-      <desc />
-      <defs />
-      <g
-        fill="none"
-        fill-rule="evenodd"
-        id="Page-1"
-        stroke="none"
-        stroke-width="1"
-      >
-        <g
-          fill="#000000"
-          id="Core"
-          transform="translate(-212.000000, -422.000000)"
-        >
-          <g id="shopping-cart" transform="translate(212.000000, 422.000000)">
-            <path
-              d="M6,16 C4.9,16 4,16.9 4,18 C4,19.1 4.9,20 6,20 C7.1,20 8,19.1 8,18 C8,16.9 7.1,16 6,16 L6,16 Z M0,0 L0,2 L2,2 L5.6,9.6 L4.2,12 C4.1,12.3 4,12.7 4,13 C4,14.1 4.9,15 6,15 L18,15 L18,13 L6.4,13 C6.3,13 6.2,12.9 6.2,12.8 L6.2,12.7 L7.1,11 L14.5,11 C15.3,11 15.9,10.6 16.2,10 L19.8,3.5 C20,3.3 20,3.2 20,3 C20,2.4 19.6,2 19,2 L4.2,2 L3.3,0 L0,0 L0,0 Z M16,16 C14.9,16 14,16.9 14,18 C14,19.1 14.9,20 16,20 C17.1,20 18,19.1 18,18 C18,16.9 17.1,16 16,16 L16,16 Z"
-              id="Shape"
-            />
-          </g>
-        </g>
-      </g>
+      <path
+        d="M17 5C23.3942 5.15036 31.4237 5 33.3729 5C35.322 5 51.6911 70.1017 51.6911 70.1017M119.525 84.9153C93.8166 85.0123 57.1525 84.9153 55.5932 84.9153C54.0339 84.9153 51.6911 70.1017 51.6911 70.1017M56.7627 26.0508L126.153 27.2203C128.102 26.9605 132 27.8441 132 33.4576C132 40.4746 126.153 70.1017 121.085 70.1017H51.6911"
+        stroke="#508AA5"
+        stroke-width="10"
+        stroke-linecap="round"
+      />
+      <circle
+        cx="109.475"
+        cy="106.356"
+        r="8.47458"
+        stroke="#508AA5"
+        stroke-width="8"
+      />
+      <circle
+        cx="66.4746"
+        cy="106.475"
+        r="8.47458"
+        stroke="#508AA5"
+        stroke-width="8"
+      />
+      <path
+        d="M26 43L19 43L12 43"
+        stroke="#508AA5"
+        stroke-width="7"
+        stroke-linecap="round"
+      />
+      <path
+        d="M26 54L15 54L4 54"
+        stroke="#508AA5"
+        stroke-width="7"
+        stroke-linecap="round"
+      />
+      <path
+        d="M27 65L19.5 65L12 65"
+        stroke="#508AA5"
+        stroke-width="7"
+        stroke-linecap="round"
+      />
     </svg>
   );
 }
