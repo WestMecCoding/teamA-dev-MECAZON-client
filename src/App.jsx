@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Groceries from "./pages/Groceries";
+import Product from "./pages/Product";
 
 import "./App.css";
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/product" element={<Product />} />
           <Route path="/" element={<Home />} />
           <Route path="/groceries" element={<Groceries />} />
         </Routes>
