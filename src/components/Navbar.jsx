@@ -13,7 +13,7 @@ export default function Navbar() {
       <Link to="/" className={styles.link}>
         Home
       </Link>
-      <Link to="/" className={styles.link}>
+      <Link to="/products" className={styles.link}>
         Products
       </Link>
       <SearchBar />
