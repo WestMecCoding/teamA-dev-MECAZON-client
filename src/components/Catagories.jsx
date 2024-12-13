@@ -6,16 +6,16 @@ export default function Catagories() {
     <nav>
       <ul className="navbar">
         <li>
-          <a href="#">Home</a>
+          <a href="#">Furniture</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#">Offic supplies</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#">Travel</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">electronics</a>
         </li>
       </ul>
     </nav>
