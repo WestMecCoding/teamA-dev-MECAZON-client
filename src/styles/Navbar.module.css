@@ -5,6 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.link {
+  padding: 2vw;
 }
 
 .nav a {

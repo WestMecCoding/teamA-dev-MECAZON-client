@@ -1,20 +1,32 @@
 import styles from "../styles/Navbar.module.css";
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
+import Catagories from "./Catagories.jsx";
 import LogoLG from "./LogoLG.jsx";
-import LogoSM from "./LogoSM.jsx";
-import LogoMD from "./LogoMD.jsx";
+// import Signup from "./Signup.jsx";
+import Cart from "./Cart.jsx";
 
 export default function Navbar() {
   return (
-    <nav className={styles.nav}>
-      <LogoLG />
-      <Link to="/">Home</Link>
-      <Link to="/">Products</Link>
-      <SearchBar />
-      <Link to="/">Sign-Up/Log-in</Link>
-      
-      <Link to="/">Cart</Link>
-    </nav>
+    <>
+      <nav className={styles.nav}>
+        <LogoLG />
+        <Link to="/" className={styles.link}>
+          Home
+        </Link>
+        <Link to="/" className={styles.link}>
+          Products
+        </Link>
+        <SearchBar />
+        <Link to="/" className={styles.link}>
+          <Cart />
+        </Link>
+        <Link to="/" className={styles.link}>
+          {/* <Signup /> */}Sign-up
+        </Link>
+      </nav>
+
+      <Catagories />
+    </>
   );
 }
