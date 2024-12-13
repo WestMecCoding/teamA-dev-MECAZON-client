@@ -9,13 +9,13 @@ export default function Catagories() {
           <a href="#">Furniture</a>
         </li>
         <li>
-          <a href="#">Offic supplies</a>
+          <a href="#">Office supplies</a>
         </li>
         <li>
           <a href="#">Travel</a>
         </li>
         <li>
-          <a href="#">electronics</a>
+          <a href="#">Electronics</a>
         </li>
       </ul>
     </nav>
