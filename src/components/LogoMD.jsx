@@ -1,8 +1,7 @@
 export default function LogoMD() {
   return (
     <svg
-      width="69"
-      height="40"
+      height="60"
       viewBox="0 0 69 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
