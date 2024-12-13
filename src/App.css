@@ -1,6 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
+<<<<<<< HEAD
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
   text-align: center;
 }
+=======
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+/* laptops and desktops */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* tablets  */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* phone  */
+@media only screen and (max-width: 600px) {
+  .example {
+    background: red;
+  }
+}
+>>>>>>> 487154097758dfe042469523070dc76815a4dc95
