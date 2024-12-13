@@ -8,27 +8,21 @@ import LogoLG from "./LogoLG.jsx";
 
 export default function Navbar() {
   return (
-<<<<<<< HEAD
     <nav className={styles.nav}>
       <LogoLG />
-      <Link to="/">Home</Link>
-      <Link to="/">Products</Link>
+      <Link to="/" className={styles.link}>
+        Home
+      </Link>
+      <Link to="/" className={styles.link}>
+        Products
+      </Link>
       <SearchBar />
-      <Link to="/">{/* <Signup /> */}Sign-up</Link>
-      <Link to="/">{/* <Cart /> */}Cart</Link>
+      <Link to="/" className={styles.link}>
+        {/* <Signup /> */}Sign-up
+      </Link>
+      <Link to="/" className={styles.link}>
+        {/* <Cart /> */}Cart
+      </Link>
     </nav>
-=======
-    <div>
-      <nav className={styles.nav}>
-        <LogoLG />
-        <Link to="/">Home</Link>
-        <Link to="/">Products</Link>
-        <SearchBar />
-        <Link to="/">Sign-Up/Log-in</Link>
-        <Link to="/">Cart</Link>
-      </nav>
-      <Catagories />
-    </div>
->>>>>>> c26f38a4652ed9017ffd51a542818ff0ac461c80
   );
 }

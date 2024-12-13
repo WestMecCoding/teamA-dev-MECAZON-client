@@ -1,7 +1,7 @@
 input {
-  width: 25vw;
+  width: 35vw;
   height: 3vh;
   padding: 2%;
-  margin: 10vw;
-  border-radius: 20px;
+  margin: 5vw;
+  border-radius: 40px;
 }
