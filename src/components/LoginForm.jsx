@@ -18,9 +18,13 @@ export default function LoginForm() {
     }
   };
   return (
-    <div className={styles.card}>
-      <h2 className={styles.headerText}>Welcome back</h2>
+      
       <form onSubmit={handleLogin}>
+      <div className={styles.card}>
+        <div className={styles.text}>
+          <h2 className={styles.headerText}>Welcome back</h2>
+          <p className={styles.text}> Please enter your log in detail below </p>
+        </div>
         <input
           type="email"
           placeholder="Email"
@@ -38,7 +42,7 @@ export default function LoginForm() {
         />
 
         <button type="submit">Login</button>
+      </div>
       </form>
-    </div>
   );
 }
