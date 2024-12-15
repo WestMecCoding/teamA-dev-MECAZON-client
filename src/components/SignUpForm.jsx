@@ -38,8 +38,8 @@ export default function SignUpForm() {
         <div className={styles.card}>
 
         <div className={styles.text}>
-            <h2 className={styles.headerText}>Welcome back</h2>
-            <p className={styles.text}> Please enter your log in detail below </p>
+            <h2 className={styles.headerText}>Sign up</h2>
+            <p className={styles.text}> create new account below </p>
         </div>
 
         <input
@@ -69,7 +69,7 @@ export default function SignUpForm() {
           {" "}
           Signup
         </button>
-        <Link to="/log-in"><p className={styles.text}>don't have an account?</p></Link>
+        <Link to="/log-in"><p className={styles.text}>already have an account?</p></Link>
         </div>
       </form>
   );
