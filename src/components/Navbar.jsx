@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link to="/" className={styles.link}>
           <Cart />
         </Link>
-        <Link to="/" className={styles.link}>
+        <Link to="/account" className={styles.link}>
           {/* <Signup /> */}Sign-up
         </Link>
       </nav>
