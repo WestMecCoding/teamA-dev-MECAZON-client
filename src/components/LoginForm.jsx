@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { validEmail, validPassword } from "./Regex";
 import styles from "../styles/LoginForm.module.css"
 
+import { Link } from "react-router-dom";
+
 export default function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -42,6 +44,8 @@ export default function LoginForm() {
         />
 
         <button type="submit">Login</button>
+
+        <Link to="/"><p className={styles.text}>don't have an account?</p></Link>
       </div>
       </form>
   );
