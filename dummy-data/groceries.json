@@ -5,7 +5,8 @@
     "category": "Educational Supplies",
     "stock_quantity": 150,
     "description": "A 200-page spiral notebook for school and office use.",
-    "discount": 5
+    "discount": 5,
+    "imgSrc": "./blue-notebook.png"
   },
   {
     "item": "Ballpoint Pen Set",
@@ -13,7 +14,8 @@
     "category": "Educational Supplies",
     "stock_quantity": 200,
     "description": "Set of 10 smooth-writing ballpoint pens.",
-    "discount": 0
+    "discount": 0,
+    "imgSrc": "./"
   },
   {
     "item": "Office Chair",
@@ -21,7 +23,8 @@
     "category": "Office Furniture",
     "stock_quantity": 25,
     "description": "Ergonomic office chair with adjustable height and lumbar support.",
-    "discount": 10
+    "discount": 10,
+    "imgSrc": "./"
   },
   {
     "item": "Standing Desk",
@@ -29,7 +32,8 @@
     "category": "Office Furniture",
     "stock_quantity": 10,
     "description": "Height-adjustable standing desk with a spacious work surface.",
-    "discount": 15
+    "discount": 15,
+    "imgSrc": "./"
   },
   {
     "item": "Wireless Mouse",
@@ -37,7 +41,8 @@
     "category": "Electronics",
     "stock_quantity": 50,
     "description": "Wireless ergonomic mouse with adjustable DPI settings.",
-    "discount": 5
+    "discount": 5,
+    "imgSrc": "./"
   },
   {
     "item": "Mechanical Keyboard",
@@ -45,7 +50,8 @@
     "category": "Electronics",
     "stock_quantity": 30,
     "description": "RGB mechanical keyboard with customizable keys and tactile switches.",
-    "discount": 10
+    "discount": 10,
+    "imgSrc": "./"
   },
   {
     "item": "Travel Backpack",
@@ -53,7 +59,8 @@
     "category": "Travel Supplies and Luggage",
     "stock_quantity": 75,
     "description": "Water-resistant travel backpack with multiple compartments.",
-    "discount": 0
+    "discount": 0,
+    "imgSrc": "./"
   },
   {
     "item": "Carry-On Luggage",
@@ -61,7 +68,8 @@
     "category": "Travel Supplies and Luggage",
     "stock_quantity": 20,
     "description": "Durable carry-on luggage with spinner wheels and TSA-approved locks.",
-    "discount": 15
+    "discount": 15,
+    "imgSrc": "./"
   },
   {
     "item": "Snack Box Assortment",
@@ -69,7 +77,8 @@
     "category": "Snacks, Games, Gifts",
     "stock_quantity": 100,
     "description": "A variety of snacks including chips, cookies, and nuts.",
-    "discount": 0
+    "discount": 0,
+    "imgSrc": "./"
   },
   {
     "item": "Board Game Set",
@@ -77,7 +86,8 @@
     "category": "Snacks, Games, Gifts",
     "stock_quantity": 40,
     "description": "Family-friendly board game set with classic games like chess and checkers.",
-    "discount": 5
+    "discount": 5,
+    "imgSrc": "./"
   },
   {
     "item": "Wireless Earbuds",
@@ -85,7 +95,8 @@
     "category": "Electronics",
     "stock_quantity": 60,
     "description": "True wireless earbuds with noise-cancellation and long battery life.",
-    "discount": 10
+    "discount": 10,
+    "imgSrc": "./"
   },
   {
     "item": "Desk Lamp",
@@ -93,7 +104,8 @@
     "category": "Office Furniture",
     "stock_quantity": 40,
     "description": "LED desk lamp with adjustable brightness and USB charging port.",
-    "discount": 5
+    "discount": 5,
+    "imgSrc": "./"
   },
   {
     "item": "Reusable Water Bottle",
@@ -101,7 +113,8 @@
     "category": "Travel Supplies and Luggage",
     "stock_quantity": 120,
     "description": "Stainless steel insulated water bottle, keeps drinks hot or cold.",
-    "discount": 0
+    "discount": 0,
+    "imgSrc": "./"
   },
   {
     "item": "Whiteboard Markers",
@@ -109,7 +122,8 @@
     "category": "Educational Supplies",
     "stock_quantity": 80,
     "description": "Set of 8 colorful whiteboard markers with low odor.",
-    "discount": 0
+    "discount": 0,
+    "imgSrc": "./"
   },
   {
     "item": "Filing Cabinet",
@@ -117,6 +131,7 @@
     "category": "Office Furniture",
     "stock_quantity": 15,
     "description": "Lockable 3-drawer filing cabinet for office organization.",
-    "discount": 10
+    "discount": 10,
+    "imgSrc": "./"
   }
 ]
