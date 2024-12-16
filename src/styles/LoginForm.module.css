@@ -56,16 +56,17 @@ input {
     align-self: center;
 
     width: 90%;
+    height: 60px;
 
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
 
     border-radius: 5px;
     border-width: 1px;
 }
-input::placeholder {
-    padding: 10px;
 
+input::placeholder {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
