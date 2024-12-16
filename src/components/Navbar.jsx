@@ -16,8 +16,6 @@ export default function Navbar() {
         <Link to="/" className={styles.link}>
           <p className={styles.subTitle}>
             <LogoLG />
-            {/* <LogoMD /> */}
-            {/* <Menu/> */}
           </p>
         </Link>
         <Link to="/products" className={styles.link}>
