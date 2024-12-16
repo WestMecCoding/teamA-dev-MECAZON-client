@@ -9,10 +9,10 @@ export default function Home() {
       <div className={styles.bigDiv}>
         <div id={styles.exOne}></div>
       </div>
-      <div className={styles.smallDiv}> 
+      <div className={styles.smallDiv}>
         <div className={styles.exTwo}></div>
       </div>
-      <div className={styles.smallDiv}> 
+      <div className={styles.smallDiv}>
         <div className={styles.exTwo}></div>
       </div>
     </div>
@@ -31,4 +31,3 @@ export default function Home() {
   </>
 );
 }
-
