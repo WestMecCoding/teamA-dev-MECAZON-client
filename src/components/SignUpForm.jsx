@@ -1,4 +1,4 @@
-import styles from "../styles/LoginForm.module.css"
+import styles from "../styles/LoginForm.module.css";
 
 import React, { useState } from "react";
 import { validEmail, validPassword } from "../components/Regex";
@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 export default function SignUpForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-    const [comfirmPassword, setConfirmPassword] = useState("");
-     const [emailErr, setEmailErr] = useState(false);
-     const [pwdError, setPwdError] = useState(false);
+  const [comfirmPassword, setConfirmPassword] = useState("");
+  const [emailErr, setEmailErr] = useState(false);
+  const [pwdError, setPwdError] = useState(false);
 
   const validate = () => {
     if (!validEmail.test(email)) {
@@ -18,14 +18,13 @@ export default function SignUpForm() {
     }
     if (!validPassword.test(password)) {
       setPwdError(true);
-      }
-      if (validPassword.test(password)) {
-          setPwdError(false);
-      }
-      if (validPassword.test(email)) {
-          setEmailErr(false);
-      }
-
+    }
+    if (validPassword.test(password)) {
+      setPwdError(false);
+    }
+    if (validPassword.test(email)) {
+      setEmailErr(false);
+    }
   };
 
   const handleSignup = (e) => {
@@ -34,12 +33,11 @@ export default function SignUpForm() {
   };
 
   return (
-      <form onSubmit={handleSignup}>
-        <div className={styles.card}>
-
+    <form onSubmit={handleSignup}>
+      <div className={styles.card}>
         <div className={styles.text}>
-            <h2 className={styles.headerText}>Sign up</h2>
-            <p className={styles.text}> create new account below </p>
+          <h2 className={styles.headerText}>Sign up</h2>
+          <p className={styles.text}> create new account below </p>
         </div>
 
         <input
@@ -69,8 +67,13 @@ export default function SignUpForm() {
           {" "}
           Signup
         </button>
-        <Link to="/log-in"><p className={`${styles.text} ${styles.center}`}>already have an account?</p></Link>
-        </div>
-      </form>
+        {/* create a button for employee */}
+        <Link to="/log-in">
+          <p className={`${styles.text} ${styles.center}`}>
+            already have an account?
+          </p>
+        </Link>
+      </div>
+    </form>
   );
 }
