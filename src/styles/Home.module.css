@@ -14,7 +14,9 @@
     background-color: #F78E11; 
     padding: 20px;
     width: 60%; 
+    margin:auto;
     border: 1px solid black;
+    border-radius: 25px;
   }
   
   .bigDiv {
@@ -23,12 +25,14 @@
     background-color: #fff;
     padding: 20px;
     margin:auto;
+    border-radius: 25px;
   }
   
   .smallDiv {
     background-color: #fff;
     padding: 20px;
     margin:auto;
+    border-radius: 25px;
   }
   
   .smallDiv:nth-child(2) {
@@ -50,6 +54,7 @@
     width: 30%; 
     margin:auto;
     border: 1px solid black;
+    border-radius: 25px;
   }
   
   .sidebarItem {
@@ -57,7 +62,7 @@
     margin-bottom: 10px; 
     padding: 15px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 25px;
     margin:auto;
   }
   
@@ -65,16 +70,19 @@
     border: 5px solid black;
     width:500px;
     height:500px;
+    border-radius: 25px;
   }
   
   .exTwo {
     border: 5px solid black;
+    border-radius: 25px;
     width:250px;
     height:250px;
   }
   
   .exThree {
     border: 5px solid black;
+    border-radius: 25px;
     width:100px;
     height:100px;
   }
