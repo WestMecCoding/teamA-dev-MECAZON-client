@@ -4,6 +4,13 @@ body {
 }
 
 #root {
+<<<<<<< HEAD
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+=======
   /* max-width: 1280px; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
@@ -30,3 +37,4 @@ body {
     background: red;
   }
 }
+>>>>>>> 487154097758dfe042469523070dc76815a4dc95
