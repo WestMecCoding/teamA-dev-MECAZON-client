@@ -6,6 +6,7 @@ import Groceries from "./pages/Groceries";
 import Product from "./pages/Product";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
+import Cart from "./pages/Cart";
 
 import "./App.css";
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Groceries />} />
+          <Route path="/cart" element={<Cart/>} />
           <Route path="/log-in" element={<LogIn />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>

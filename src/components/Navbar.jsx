@@ -7,6 +7,7 @@ import LogoMD from "./LogoMD.jsx";
 import Signup from "./Signup.jsx";
 import Cart from "./Cart.jsx";
 import Box from "./Box.jsx";
+
 // import Menu from "./Menu";
 
 export default function Navbar() {

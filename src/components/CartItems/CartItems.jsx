@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import styles from "../styles/CartItems.module.css";
+import "./CartItems.css";
 // import { ShopContext } from '../../Context/ShopContext';
-import remove_icon from "../Assests/cart_cross_icon.png";
+// import remove_icon from "../Assests/cart_cross_icon.png";
 
 export default function CartItems() {
   // return (
@@ -48,8 +48,8 @@ export default function CartItems() {
   // const totalAfterDiscount = subtotal - (subtotal * discount);
 
   return (
-    <div className={styles.cartitems}>
-      <div className={styles.cartitems_format_main}>
+    <div className="cartitems">
+      <div className="cartitems-format-main">
         <p>Products</p>
         <p>Title</p>
         <p>Price</p>
@@ -83,21 +83,21 @@ export default function CartItems() {
                 return null;
             })} */}
 
-      <div className={styles.cartitems_down}>
-        <div className={cartitems_total}>
+      <div className="cartitems-down">
+        <div className="cartitems-total">
           <h1>Cart Totals</h1>
           <div>
-            <div className={styles.cartitems_total_items}>
+            <div className="cartitems-total-items">
               <p>Subtotal</p>
               <p>${0}</p>
             </div>
             <hr />
-            <div className={styles.cartitems_total_item}>
+            <div className="cartitems-total-item">
               <p>Shipping Fee</p>
               <p>Free</p>
             </div>
             <hr />
-            <div className={styles.cartitems_total_item}>
+            <div className="cartitems-total-item">
               <h3>Total</h3>
               <h3>${0}</h3>
             </div>
@@ -106,9 +106,9 @@ export default function CartItems() {
           {/* <button onClick={handleCheckout}>PROCEED TO CHECKOUT</button> */}
         </div>
 
-        <div className={styles.cartitems_promocode}>
+        <div className="cartitems-promocode">
           <p>If you have a promo code, enter it here!</p>
-          <div className={styles.cartitems_promobox}>
+          <div className="cartitems-promobox">
             <input
               type="text"
               placeholder="Enter promo code"
@@ -123,11 +123,7 @@ export default function CartItems() {
         </div>
       </div>
 
-      {/* {orderReceived && ( */}
-      <div className={styles.order_success_message}>
-        <h2>Your order has been received. Thank you for shopping with us!</h2>
-      </div>
-      {/* // )} */}
+      
     </div>
   );
 }
