@@ -27,6 +27,8 @@
 }
 
 .subTitle {
+  display: flex;
+  flex-direction: column;
   font-size: 0.7rem;
   padding-top: 10%;
   filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
