@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Groceries from "./pages/Groceries";
+import Product from "./pages/Product";
+import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 
 import "./App.css";
@@ -12,10 +14,12 @@ export default function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/product" element={<Product />} />
           <Route path="/" element={<Home />} />
           <Route path="/groceries" element={<Groceries />} />
-          <Route path="/signUp" element={<SignUp></SignUp>}></Route>
-      </Routes>
+          <Route path="/log-in" element={< LogIn/>} />
+          <Route path="/sign-up" element={< SignUp/>} />
+        </Routes>
       </Router>
     </div>
   );

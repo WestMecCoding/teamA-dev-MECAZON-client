@@ -1,19 +1,20 @@
-import SignUpForm from "../components/SignUpForm";
+import LoginForm from "../components/LoginForm";
 import SideImage from "../components/SideImage";
+
 import styles from "../styles/Account.module.css"
 
-export default function App() {
+export default function Account() {
     return (
-         <>
+        <>
             <div className={styles.body}>
                 <div className={styles.form}>
-                    <SignUpForm></SignUpForm>
+                    <LoginForm ></LoginForm>
                 </div>
-            <div className={styles.image}>
+                <div className={styles.image}>
                     <SideImage></SideImage>
                 </div>
             </div>
         </>
-    );
+    )
   }
   

@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    gap: 10px;
+    background-color: lightgray;
+    /* border: 5px solid black; */
+    float:left;
+    width:1100px;
+    height:500px;
+    margin-left:30px;
+}
+
+.bigItem {
+    flex: 2;
+    background-color: lightblue;
+    margin:10px;
+    padding: 20px;
+}
+  
+.smallContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+.item {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 20px;
+}
+
+.containerSide {
+    background-color: lightsalmon;
+    float:right;
+    margin-right:10px;
+    width:250px;
+    height:500px;
+}
+
+.sideItem {
+    background-color: lightseagreen;
+    width:100px;
+}

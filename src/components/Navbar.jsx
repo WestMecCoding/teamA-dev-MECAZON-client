@@ -10,9 +10,8 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
-        <LogoLG />
         <Link to="/" className={styles.link}>
-          Home
+          <LogoLG />
         </Link>
         <Link to="/" className={styles.link}>
           Products
@@ -21,7 +20,7 @@ export default function Navbar() {
         <Link to="/" className={styles.link}>
           <Cart />
         </Link>
-        <Link to="/" className={styles.link}>
+        <Link to="/log-in" className={styles.link}>
           {/* <Signup /> */}Sign-up
         </Link>
       </nav>
