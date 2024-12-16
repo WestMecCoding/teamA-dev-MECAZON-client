@@ -1,10 +1,47 @@
 .nav {
-  background-color: #333;
-  padding: 1rem;
+  background-color: #0e3249;
+  height: 10vh;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem; */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.link {
+  padding: 2vw;
 }
 
 .nav a {
   color: #fff;
   margin-right: 1rem;
   text-decoration: none;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  padding-top: 10%;
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+}
+
+.subTitle:hover {
+  /* font-size: 0.8rem; */
+  text-decoration: underline;
+  border-radius: 10px;
+  padding-top: 5%;
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 1));
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 1024px) {
 }

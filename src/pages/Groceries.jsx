@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import GroceryList from "../components/GroceryList";
+import styles from "../styles/GroceryList.module.css";
 import axios from "axios";
 
 export default function Groceries() {
@@ -25,7 +26,7 @@ export default function Groceries() {
   }, [groceries]);
   return (
     <div>
-      <h1>Groceries</h1>
+      <h1 className={styles.header}>Result of Search:</h1>
       <GroceryList items={groceries} />
     </div>
   );
