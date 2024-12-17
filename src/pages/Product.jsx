@@ -1,6 +1,6 @@
 import styles from "../styles/Product.module.css";
 
-export default function Product() {
+export default function Product({ items }) {
   return (
     <>
       <div className={styles.body}>
@@ -9,15 +9,14 @@ export default function Product() {
             const image = new URL(i.imgSrc, import.meta.url).href;
             return (
               <>
-        <div className={styles.wrapper}>
-          <div className={styles.smallbox}>small box 1</div>
-          <div className={styles.smallbox}>small box 2</div>
-          <div className={styles.smallbox}>small box 3</div>
-        </div>
+                <div className={styles.wrapper}>
+                  <div className={styles.smallbox}>small box 1</div>
+                  <div className={styles.smallbox}>small box 2</div>
+                  <div className={styles.smallbox}>small box 3</div>
+                </div>
               </>
             );
           })}
-
         </div>
       </div>
 
