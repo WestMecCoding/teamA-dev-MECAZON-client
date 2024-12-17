@@ -46,6 +46,8 @@
   padding-right: 0.5vw;
 }
 
+/* hide bar and simple logo */
+
 /* Medium screens (tablets, 768px and up) */
 @media (max-width: 1024px) {
 }
