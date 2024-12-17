@@ -77,7 +77,6 @@
     background-color:#0E3249;
     border-radius: 5px;
       background-color: rgba(14, 50, 73, 0.5);
-    
   }
   
   /* .sidebar {
@@ -126,34 +125,59 @@
   @media (max-width: 1024px) {
     .layoutContainer {
       flex-direction: column; 
+      height:500px;
+      max-width: 100%;
+      overflow-x: hidden;
     }
   
     .gridContainer {
-      width: 90%; 
-      grid-template-columns: 2fr 1fr; 
+      display:flex;
+      flex-direction: column;
+      width: 100%; 
+      /* grid-template-columns: 2fr 1fr;  */
       grid-template-rows: auto auto; 
       padding: 10px;
+      width:500px;
+      height:500px;
       margin:auto;
       overflow-x:hidden;
     }
+
+    .bigDiv {
+      margin:auto;
+      background-image: url("../components/MecazonProductImages/backpacks/blue-backpack.png");
+      background-size: auto;
+    }
+
+    .smallDiv {
+      margin:auto;
+      width:50%;
+      height:50%;
+    }
+    .divTitle {
+      color:#f78e11;
+      float:left;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1rem;
+      padding:5px;
+      background-color:#0E3249;
+      border-radius: 5px;
+        background-color: rgba(14, 50, 73, 0.5);
+    }
   
-    .sidebar {
+    /* .sidebar {
       flex-direction: row;
       gap: 10px; 
       width: 90%; 
-      /* overflow:hidden; */
       margin:auto;
-    }
+    } */
   
-    .sidebarItem {
-      flex: 1 1 calc(33.33% - 50px); /* Make items flexible with a max width */
+    /* .sidebarItem {
+      flex: 1 1 calc(33.33% - 50px); 
       margin-bottom: 0; 
       overflow:hidden;
-    }
-    /* .exTwo {
-      border: 5px solid black;
-      width:50px;
-      height:50px;
     } */
   }
   
