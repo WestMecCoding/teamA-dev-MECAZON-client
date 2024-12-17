@@ -82,6 +82,7 @@
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
     font-size: 1.5rem;
     border-radius: 50px;
+    margin-left: 8rem;
   }
   to {
     width: calc(70% - 1rem);
