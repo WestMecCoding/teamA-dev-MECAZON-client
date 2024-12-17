@@ -73,6 +73,11 @@
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
+    padding:5px;
+    background-color:#0E3249;
+    border-radius: 5px;
+      background-color: rgba(14, 50, 73, 0.5);
+    
   }
   
   /* .sidebar {
