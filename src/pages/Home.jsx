@@ -8,7 +8,7 @@ export default function Home() {
   <div className={styles.layoutContainer}>
     <div className={styles.gridContainer}>
       <div className={styles.bigDiv}>
-        <img src={<Image />} alt="" width="20px" />
+        {/* <img src={<Image />} alt="" width="20px" /> */}
         <h1 className={styles.divTitle}>Office Supply</h1>
         {/* <div id={styles.exOne}></div> */}
       </div>

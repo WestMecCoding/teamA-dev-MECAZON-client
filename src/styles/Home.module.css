@@ -36,6 +36,7 @@
     background-image: url(../components/MecazonProductImages/backpacks/blue-backpack.png);
     background-position: center center;
     background-size: cover;
+
   }
   
   .smallDiv {
@@ -46,6 +47,7 @@
     height:250px;
     border-radius: 15px;
     border: 5px solid #f78e11;
+
   }
   
   .smallDiv:nth-child(2) {
@@ -67,6 +69,10 @@
   .divTitle {
     color:#f78e11;
     float:left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
   }
   
   /* .sidebar {
