@@ -5,9 +5,9 @@ import "./CartItems.css";
 
 export default function CartItems() {
   // return (
-  //     const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
+  // const { cartItems, removeFromCart } = useContext(ShopContext);
 
-  // // track order status
+  // track order status
   // const [orderReceived, setOrderReceived] = useState(false);
   // const [promoCode, setPromoCode] = useState('');
   // const [discount, setDiscount] = useState(0);
@@ -87,7 +87,7 @@ export default function CartItems() {
         <div className="cartitems-total">
           <h1>Cart Totals</h1>
           <div>
-            <div className="cartitems-total-items">
+            <div className="cartitems-total-item subtotal">
               <p>Subtotal</p>
               <p>${0}</p>
             </div>
@@ -113,7 +113,7 @@ export default function CartItems() {
               type="text"
               placeholder="Enter promo code"
               // value={promoCode}
-              onChange={(e) => setPromoCode(e.target.value)}
+              // onChange={(e) => setPromoCode(e.target.value)}
             />
             <button>Apply</button>
             {/* <button onClick={handleApplyPromoCode}>Apply</button> */}
@@ -123,7 +123,11 @@ export default function CartItems() {
         </div>
       </div>
 
-      
+      {/* {(orderReceived && (
+                <div className="order-success-message">
+                    <h2>Your order has been received. Thank you for shopping with us!</h2>
+                </div>
+            ) */}
     </div>
   );
 }

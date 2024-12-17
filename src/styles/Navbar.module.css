@@ -43,17 +43,7 @@
 }
 
 /* hide bar and simple logo */
-.bars {
-  visibility: hidden;
-}
-
-.logomd {
-  visibility: hidden;
-}
 
 /* Medium screens (tablets, 768px and up) */
 @media (max-width: 1024px) {
-  .bars {
-    visibility: visible;
-  }
 }

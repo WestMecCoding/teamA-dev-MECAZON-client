@@ -7,6 +7,7 @@ import Product from "./pages/Product";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import EmployeeLogIn from "./pages/EmployeeLogIn";
+import Cart from "./pages/Cart";
 
 import "./App.css";
 export default function App() {

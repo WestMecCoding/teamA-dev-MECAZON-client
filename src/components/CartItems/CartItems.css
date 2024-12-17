@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .cartitems{
     margin: 100px 170px;
 }
@@ -46,29 +48,42 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* margin-right: 100px; */
     gap: 40px;
 }
-.cartitems-total-item{
+
+.cartitems-total-item {
+font-family: "Roboto", sans-serif;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 15px 0px;
+    width: 100%;
 }
+
+
+.cartitems-total-item p {
+    font-family: "Roboto", sans-serif;
+
+    margin: 0;
+}
+
 .cartitems-total button {
+    font-family: "Roboto", sans-serif;
     width: 262px;
     height: 58px;
     outline: none;
     border: none;
-    background: orange;
+    background: #F78E11;
+    border-radius: 5px;
     color: white;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
 }
+
 .cartitems-promocode {
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
     font-size: 16px;
     font-weight: 500;
 }
@@ -95,11 +110,13 @@
 }
 
 .cartitems-promobox button {
+   font-family: "Roboto", sans-serif;
     width: 170px;
     height: 58px;
     font-size: 16px;
     border: 1px solid grey;
-    background: orange;
+    background: #F78E11;
+    border-radius: 5px;
     color: white;
     cursor: pointer;
 }
