@@ -1,7 +1,38 @@
 input {
-  width: 35vw;
-  height: 2.5vh;
+  /* width: 100vw; */
+  height: 2.5%;
   padding: 2%;
   margin: 5vw;
   border-radius: 40px;
+  animation: 0.2s shrink ease-in;
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+}
+
+input:hover {
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 1));
+  animation: 0.2s expand ease-in;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+@keyframes expand {
+  from {
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+  to {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+}
+
+@keyframes shrink {
+  from {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  to {
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
 }

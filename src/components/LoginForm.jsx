@@ -44,8 +44,10 @@ export default function LoginForm() {
         />
 
         <button type="submit">Login</button>
-
-        <Link to="/sign-up"><p className={styles.text}>don't have an account?</p></Link>
+        <div>
+        <Link to="/sign-up"><p className={`${styles.text} ${styles.center}`}>don't have an account?</p></Link>
+        <Link to="/employee-log-in"><p className={`${styles.text} ${styles.center}`}>Employee login page</p></Link>
+        </div>
       </div>
       </form>
   );

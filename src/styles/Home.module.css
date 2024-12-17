@@ -1,42 +1,240 @@
-.container {
-    display: flex;
-    gap: 10px;
-    background-color: lightgray;
-    /* border: 5px solid black; */
-    float:left;
-    width:1100px;
-    height:500px;
-    margin-left:30px;
-}
-
-.bigItem {
-    flex: 2;
-    background-color: lightblue;
-    margin:10px;
-    padding: 20px;
-}
+.layoutContainer {
+    display: flex; 
+    gap: 20px;
+    align-items: flex-start; 
+    width:100%;
+    overflow-x: hidden;
+  }
   
-.smallContainer {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 4fr 2fr; 
+    /* Big div takes 2 parts, smaller divs 1 part */
+    grid-template-rows: auto auto; 
+    /* Adjust rows automatically */
+    gap: 20px; 
+    /* background-color: #F78E11;  */
+    padding: 10px;
+    width: 80%; 
+    margin:auto;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+  }
+  
+  .bigDiv {
+    grid-column: 1 / 2; 
+    /* Spans the first column */
+    grid-row: 1 / 3; 
+    /* Spans two rows */
+    width:90%;
+    height:95%;
+    background-color: #fff;
+    padding: 15px;
+    margin:auto;
+    border-radius: 15px;
+    border: 5px solid #f78e11;
+    background-image: url(../components/MecazonProductImages/backpacks/blue-backpack.png);
+    background-position: center center;
+    background-size: cover;
+
+  }
+  
+  .smallDiv {
+    background-color: #fff;
+    margin:auto;
+    padding:15px;
+    width:500px;
+    height:250px;
+    border-radius: 15px;
+    border: 5px solid #f78e11;
+
+  }
+  
+  .smallDiv:nth-child(2) {
+    grid-column: 2 / 3; 
+    grid-row: 1 / 2; 
+    background-image: url(../components/MecazonProductImages/carryOnBag/carryonbag.png);
+    background-position: center center;
+    background-size:75%;
+  }
+  
+  .smallDiv:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+    background-image: url(../components/MecazonProductImages/mouse/mouse.png);
+    background-position: center center;
+    background-size:cover;
+  }
+
+  .divTitle {
+    color:#f78e11;
+    float:left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    padding:5px;
+    background-color:#0E3249;
+    border-radius: 5px;
+      background-color: rgba(14, 50, 73, 0.5);
+  }
+  
+  /* .sidebar {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 10px;
-}
-.item {
-    background-color: lightcoral;
-    margin: 10px;
+    flex-direction: column; 
+    gap:10px;
+    background-color: #508AA5;
     padding: 20px;
-}
-
-.containerSide {
-    background-color: lightsalmon;
-    float:right;
-    margin-right:10px;
-    width:250px;
+    width: 30%; 
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+  
+  .sidebarItem {
+    background-color: #fff;
+    margin-bottom: 10px; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    margin:auto;
+  } */
+  
+  /* #exOne {
+    border: 5px solid #F78E11;
+    width:500px;
     height:500px;
-}
-
-.sideItem {
-    background-color: lightseagreen;
+    border-radius: 25px;
+  } */
+  
+  /* .exTwo {
+    border: 5px solid #F78E11;
+    border-radius: 25px;
+    width:200px;
+    height:200px;
+  } */
+  
+  /* .exThree {
+    border: 5px solid black;
+    border-radius: 25px;
     width:100px;
-}
+    height:100px;
+  } */
+  
+  /* Medium screens (tablets, 768px and up) */
+  @media (max-width: 1024px) {
+    .layoutContainer {
+      flex-direction: column; 
+      height:500px;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .gridContainer {
+      display:flex;
+      flex-direction: column;
+      width: 100%; 
+      /* grid-template-columns: 2fr 1fr;  */
+      grid-template-rows: auto auto; 
+      padding: 10px;
+      width:500px;
+      height:500px;
+      margin:auto;
+      overflow-x:hidden;
+    }
+
+    .bigDiv {
+      margin:auto;
+      background-image: url("../components/MecazonProductImages/backpacks/blue-backpack.png");
+      background-size: auto;
+    }
+
+    .smallDiv {
+      margin:auto;
+      width:50%;
+      height:50%;
+    }
+    .divTitle {
+      color:#f78e11;
+      float:left;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1rem;
+      padding:5px;
+      background-color:#0E3249;
+      border-radius: 5px;
+        background-color: rgba(14, 50, 73, 0.5);
+    }
+  
+    /* .sidebar {
+      flex-direction: row;
+      gap: 10px; 
+      width: 90%; 
+      margin:auto;
+    } */
+  
+    /* .sidebarItem {
+      flex: 1 1 calc(33.33% - 50px); 
+      margin-bottom: 0; 
+      overflow:hidden;
+    } */
+  }
+  
+  /* Small screens (phones, 480px and up) */
+  @media (max-width: 768px) {
+    .layoutContainer {
+      flex-direction: column; /* Stack everything vertically */
+      gap: 10px;
+      height:500px;
+      /* overflow:hidden; */
+      margin:auto;
+      border: 1px solid black;
+    }
+
+    .gridContainer {
+      display:flex;
+      flex-direction: column;
+width:500px;
+height:500px;
+grid-template-columns: 2fr 1fr; 
+    }
+  
+    .bigDiv {
+      /* display: block;  */
+      /* width: 100%;  */
+      padding: 20px;
+      margin:  auto; 
+    }
+
+    .smallDiv {
+      display:none;
+    }
+  
+    /* .sidebar {
+      display: flex;
+      flex-direction: row;
+      flex:wrap; 
+      width: 90%; 
+      padding: 10px; 
+      
+    }
+    
+    .sidebarItem {
+        width:auto;
+        height:auto;
+    } */
+
+    #exOne {
+      border: 5px solid black;
+      width:100%;
+      height:100px;
+      margin:auto;
+    }
+    .exThree {
+        overflow:hidden;
+        border: 1px solid black;
+        width:50px;
+        height:50px;
+    }
+  }

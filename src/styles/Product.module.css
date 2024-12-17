@@ -1,0 +1,52 @@
+.body {
+  display: flex;
+  flex-direction: row;
+}
+div.container {
+  height: 550px;
+  width: 550px;
+  margin-left: 40px;
+  /* margin-right: 20%; */
+  margin-top: 90px;
+  /* padding-left: 20%; */
+  background-color: rgb(177, 177, 194);
+}
+div.smallbox {
+  height: 95px;
+  width: 95px;
+  margin-left: 60px;
+  /* margin-right: 60%; */
+  margin-top: 90px;
+  margin-bottom: -40px;
+  background-color: rgb(114, 114, 187);
+}
+
+/* test */
+.product-images {
+  display: flex;
+  gap: 20px;
+}
+
+.large-image img {
+  width: 400px; /* Adjust size */
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.thumbnail-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 70px; /* Thumbnail size */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1); /* Slight zoom on thumbnail on hover */
+}
+/* end test */

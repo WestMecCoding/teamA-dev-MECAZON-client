@@ -1,11 +1,16 @@
 /* Navbar styles */
 nav {
-  background-color: #333;
+  background-color: #508aa5;
   padding: 10px 0;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 0.9rem;
+  font-size: 0.9rem; */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
 }
 
 ul {
@@ -17,17 +22,58 @@ ul {
   padding: 0;
 }
 
-nav li {
+.nav li {
   /* text-align: center; */
   list-style-type: none;
+  width: 100%;
 }
 
-nav a {
-  color: white;
+.nav a {
+  color: black;
   text-decoration: none;
   padding: 10px 20px;
+  animation: 0.2s unhover ease-in;
 }
 
-nav a:hover {
-  background-color: #575757;
+.nav a:hover {
+  background-color: #0e3249;
+  color: white;
+  text-decoration: underline;
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+  border: 1px solid white;
+  animation: 0.2s hover ease-in;
+}
+
+@keyframes hover {
+  from {
+    background-color: #508aa5;
+    color: white;
+    text-decoration: underline;
+    filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0));
+    /* border: 1px solid white; */
+  }
+  to {
+    background-color: #0e3249;
+    color: white;
+    text-decoration: underline;
+    filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+    border: 1px solid white;
+  }
+}
+
+@keyframes unhover {
+  from {
+    background-color: #0e3249;
+    color: white;
+    text-decoration: underline;
+    filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+    border: 1px solid white;
+  }
+  to {
+    background-color: #508aa5;
+    color: white;
+    text-decoration: underline;
+    filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0));
+    /* border: 1px solid white; */
+  }
 }
