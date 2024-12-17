@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validEmail, validPassword } from "./Regex";
-import styles from "../styles/LoginForm.module.css"
+import styles from "../styles/LoginForm.module.css";
 
 import { Link } from "react-router-dom";
 
@@ -24,8 +24,8 @@ export default function LoginForm() {
       <form onSubmit={handleLogin}>
       <div className={styles.card}>
         <div className={styles.text}>
-          <h2 className={styles.headerText}>Welcome back</h2>
-          <p className={styles.text}> Please enter your log in detail below </p>
+          <h2 className={styles.headerText}>Employee Login</h2>
+          <p className={styles.text}> Please enter your Employee log in detail below </p>
         </div>
         <input
           type="email"
@@ -44,10 +44,7 @@ export default function LoginForm() {
         />
 
         <button type="submit">Login</button>
-        <div>
-        <Link to="/sign-up"><p className={`${styles.text} ${styles.center}`}>don't have an account?</p></Link>
-        <Link to="/employee-log-in"><p className={`${styles.text} ${styles.center}`}>Employee login page</p></Link>
-        </div>
+        
       </div>
       </form>
   );

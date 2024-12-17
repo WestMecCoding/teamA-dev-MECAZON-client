@@ -1,52 +1,9 @@
-/* .container {
-    display: flex;
-    gap: 10px;
-    background-color: lightgray;
-    border-radius: 10px;
-    float:left;
-    width:1100px;
-    height:500px;
-    margin-left:30px;
-}
-
-.bigItem {
-    flex: 2;
-    background-color: lightblue;
-    border-radius: 10px;
-    margin:10px;
-    padding: 20px;
-}
-
-.smallContainer {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 10px;
-}
-.item {
-    background-color: lightcoral;
-    margin: 10px;
-    padding: 20px;
-}
-
-.containerSide {
-    background-color: lightsalmon;
-    float:right;
-    margin-right:10px;
-    width:250px;
-    height:500px;
-}
-
-.sideItem {
-    background-color: lightseagreen;
-    width:100px;
-    margin:10px;
-} */
-
 .layoutContainer {
     display: flex; 
     gap: 20px;
     align-items: flex-start; 
+    max-width:100%;
+    overflow-x: hidden;
   }
   
   .gridContainer {
@@ -57,7 +14,9 @@
     background-color: #F78E11; 
     padding: 20px;
     width: 60%; 
+    margin:auto;
     border: 1px solid black;
+    border-radius: 25px;
   }
   
   .bigDiv {
@@ -66,12 +25,14 @@
     background-color: #fff;
     padding: 20px;
     margin:auto;
+    border-radius: 25px;
   }
   
   .smallDiv {
     background-color: #fff;
     padding: 20px;
     margin:auto;
+    border-radius: 25px;
   }
   
   .smallDiv:nth-child(2) {
@@ -93,6 +54,7 @@
     width: 30%; 
     margin:auto;
     border: 1px solid black;
+    border-radius: 25px;
   }
   
   .sidebarItem {
@@ -100,7 +62,7 @@
     margin-bottom: 10px; 
     padding: 15px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 25px;
     margin:auto;
   }
   
@@ -108,16 +70,19 @@
     border: 5px solid black;
     width:500px;
     height:500px;
+    border-radius: 25px;
   }
   
   .exTwo {
     border: 5px solid black;
+    border-radius: 25px;
     width:250px;
     height:250px;
   }
   
   .exThree {
     border: 5px solid black;
+    border-radius: 25px;
     width:100px;
     height:100px;
   }
@@ -129,21 +94,26 @@
     }
   
     .gridContainer {
-      width: 100%; 
+      width: 90%; 
       grid-template-columns: 2fr 1fr; 
       grid-template-rows: auto auto; 
       padding: 10px;
+      margin:auto;
+      overflow-x:hidden;
     }
   
     .sidebar {
       flex-direction: row;
       gap: 10px; 
-      width: 100%; 
+      width: 90%; 
+      /* overflow:hidden; */
+      margin:auto;
     }
   
     .sidebarItem {
-      flex: 1 1 calc(33.33% - 10px); /* Make items flexible with a max width */
+      flex: 1 1 calc(33.33% - 50px); /* Make items flexible with a max width */
       margin-bottom: 0; 
+      overflow:hidden;
     }
     .exTwo {
       border: 5px solid black;
@@ -163,7 +133,7 @@
   
     .bigDiv {
       display: block; 
-      width: 50%; 
+      width: 100%; 
       padding: 20px;
       margin: 0 auto; 
     }
@@ -173,21 +143,27 @@
   
     .sidebar {
       display: flex;
-      flex-direction: column; 
-      width: 100%; 
+      flex-direction: row;
+      flex:wrap; 
+      width: 90%; 
       padding: 10px; 
-      margin-top: 20px; 
-      overflow:hidden;
+      /* margin-top: 20px; */
     }
-  
     .sidebarItem {
-      margin-bottom: 10px; 
-      overflow: hidden;
+        width:auto;
+        height:auto;
     }
+
     #exOne {
       border: 5px solid black;
-      width:100px;
+      width:100%;
       height:100px;
+      margin:auto;
+    }
+    .exThree {
+        overflow:hidden;
+        border: 1px solid black;
+        width:50px;
+        height:50px;
     }
   }
-  
