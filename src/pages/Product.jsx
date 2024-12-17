@@ -4,14 +4,21 @@ export default function Product() {
   return (
     <>
       <div className={styles.body}>
+        <div className={styles.container}>
+          {items.map((i) => {
+            const image = new URL(i.imgSrc, import.meta.url).href;
+            return (
+              <>
         <div className={styles.wrapper}>
           <div className={styles.smallbox}>small box 1</div>
           <div className={styles.smallbox}>small box 2</div>
           <div className={styles.smallbox}>small box 3</div>
-          <div className={styles.smallbox}>small box 4</div>
-          <div className={styles.smallbox}>small box 5</div>
         </div>
-        <div className={styles.container}></div>
+              </>
+            );
+          })}
+
+        </div>
       </div>
 
       {/* <div className={styles.containerbig}>
