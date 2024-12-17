@@ -32,6 +32,7 @@
   font-size: 0.7rem;
   padding-top: 10%;
   filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+  animation: 0.2s shrink ease-in;
 }
 
 .subTitle:hover {
@@ -40,10 +41,35 @@
   border-radius: 10px;
   padding-top: 5%;
   filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 1));
+  animation: 0.2s expand ease-in;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
 }
 
 /* hide bar and simple logo */
 
 /* Medium screens (tablets, 768px and up) */
 @media (max-width: 1024px) {
+}
+
+@keyframes expand {
+  from {
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+  to {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+}
+
+@keyframes shrink {
+  from {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+  to {
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
 }
