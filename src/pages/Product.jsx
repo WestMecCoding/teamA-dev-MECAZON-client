@@ -5,10 +5,7 @@ export default function Product({ items }) {
     <>
       <div className={styles.body}>
         <div className={styles.wrapper}>
-        <div
-                    style='background: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")'
-                    className="h-52 sm:h-full sm:w-72 rounded-xl bg-gray-100 bg-center bg-cover"
-                ></div>
+          <div className={styles.image}></div>
           <div className={styles.smallbox}>small box 1</div>
           <div className={styles.smallbox}>small box 2</div>
           <div className={styles.smallbox}>small box 3</div>

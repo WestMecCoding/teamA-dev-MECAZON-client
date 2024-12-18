@@ -55,7 +55,6 @@ h2 {
   margin: 0;
   padding: 0;
 }
-
 .ratingContainer {
   border: solid orange;
   height: 20vh;
@@ -67,4 +66,11 @@ h2 {
   border: red;
   margin-right: 50%;
   float: left;
+}
+.image {
+  width: 65px;
+  height: 65px;
+  background-color: url(../components/MecazonProductImages/clocks/pink-clock.png);
+  background-position: center;
+  background-size: 65px;
 }
