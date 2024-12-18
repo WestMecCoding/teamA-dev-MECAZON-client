@@ -1,6 +1,4 @@
-export default function Box() {
-  return (
-<svg height="50" viewBox="0 0 127 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="127" height="125" viewBox="0 0 127 125" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="box">
 <path id="Vector 68" d="M6.02856 27.9646L63.4999 5.00006" stroke="#508AA5" stroke-width="10" stroke-linecap="round"/>
 <path id="Vector 69" d="M121.307 28.0986L63.5 4.99999" stroke="#508AA5" stroke-width="10" stroke-linecap="round"/>
@@ -15,5 +13,3 @@ export default function Box() {
 <path id="Vector 71" d="M5 96.5742L5 28.4261" stroke="#508AA5" stroke-width="10" stroke-linecap="round"/>
 </g>
 </svg>
-  );
-}
