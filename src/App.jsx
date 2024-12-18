@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/log-in" element={<LogIn />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/Employee-log-in" element={<EmployeeLogIn />} />
-          <Route path="/cart"></Route>
+          <Route path="/cart" element={<Cart/>}></Route>
         </Routes>
       </Router>
     </div>
