@@ -1,5 +1,9 @@
+.container {
+  width: 100%;
+}
+
 input {
-  /* width: 100vw; */
+  width: 90%;
   height: 2.5%;
   padding: 2%;
   margin: 5vw;
@@ -11,28 +15,23 @@ input {
 input:hover {
   filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 1));
   animation: 0.2s expand ease-in;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
+  width: 100%;
 }
 
 @keyframes expand {
   from {
-    margin-left: 0vw;
-    margin-right: 0vw;
+    width: 90%
   }
   to {
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    width: 100%
   }
 }
 
 @keyframes shrink {
   from {
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    width: 100%
   }
   to {
-    margin-left: 0vw;
-    margin-right: 0vw;
+    width: 90%
   }
 }
