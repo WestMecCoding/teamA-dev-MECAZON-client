@@ -1,3 +1,11 @@
+.header {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
 @keyframes expand {
   from {
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
@@ -114,7 +122,7 @@
 
 
   .divTitle {
-    color:#f78e11;
+    color:black;
     float:left;
     font-family: "Roboto Slab", sans-serif;
     font-weight: 500;

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-  <h1>Welcome to the Shopping Website</h1>
+  <h1 className={styles.header}>Welcome to Mecazon!</h1>
   <div className={styles.layoutContainer}>
     <div className={styles.gridContainer}>
         <Link to="/products" className={styles.bigDiv}>
