@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="pencil" viewBox="0 0 148 125" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="592c0bc781eb48c48956f0b2e28d36ef" export-id="82bca5ea50a846a6b505f6295046ca4b" cached="false"><script xmlns=""/><script xmlns=""/>
+<style><![CDATA[
+#pencil{pointer-events: all}#pencil:hover #pencil-u-pencilled_to {animation: pencil-u-pencilled_to__to 1000ms linear 1 normal forwards}@keyframes pencil-u-pencilled_to__to { 0% {transform: translate(42.305355px,118.083485px)} 100% {transform: translate(39.516491px,118.085999px)}} #pencil:hover #pencil-u-pencilled_ts {animation: pencil-u-pencilled_ts__ts 1000ms linear 1 normal forwards}@keyframes pencil-u-pencilled_ts__ts { 0% {transform: scale(0.117463,1)} 100% {transform: scale(1,1)}} #pencil:hover #pencil-u-pencilbase_to {animation: pencil-u-pencilbase_to__to 1000ms linear 1 normal forwards}@keyframes pencil-u-pencilbase_to__to { 0% {transform: translate(75.5px,61.715863px)} 100% {transform: translate(103.002445px,61.739718px)}} #pencil:hover #pencil-s-path5_tr {animation: pencil-s-path5_tr__tr 1000ms linear 1 normal forwards}@keyframes pencil-s-path5_tr__tr { 0% {transform: translate(135.33781px,207.03926px) rotate(720deg);animation-timing-function: cubic-bezier(0.415,0.08,0.115,0.955)} 100% {transform: translate(135.33781px,207.03926px) rotate(626.493506deg)}} #pencil:hover #pencil-s-path5 {animation: pencil-s-path5_f_p 1000ms linear 1 normal forwards}@keyframes pencil-s-path5_f_p { 0% {fill: #d2dbed} 100% {fill: #d2dbed}} #pencil:hover #pencil-s-path6_tr {animation: pencil-s-path6_tr__tr 1000ms linear 1 normal forwards}@keyframes pencil-s-path6_tr__tr { 0% {transform: translate(11.12px,29.9px) rotate(-720deg);animation-timing-function: cubic-bezier(0.415,0.08,0.115,0.955)} 100% {transform: translate(11.12px,29.9px) rotate(-626.493506deg)}}
+]]></style>
+<defs><linearGradient id="pencil-s-rect1-fill" x1="0.5" y1="0" x2="0.5" y2="1" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="pencil-s-rect1-fill-0" offset="0%" stop-color="rgba(255,255,255,0)"/><stop id="pencil-s-rect1-fill-1" offset="100%" stop-color="#010022"/></linearGradient></defs><g id="pencil-u-pencil"><g id="pencil-u-pencilled_to" transform="translate(42.305355,118.083485)"><g id="pencil-u-pencilled_ts" transform="scale(0.117463,1)"><path id="pencil-u-pencilled" d="M72.0165,118.085l-67.00002.002" transform="translate(-38.516491,-118.085999)" fill="none" stroke="#508aa5" stroke-width="10" stroke-linecap="round"/></g></g><g id="pencil-u-pencilbase_to" transform="translate(75.5,61.715863)"><g id="pencil-u-pencilbase" transform="translate(-103.002445,-61.739718)"><path id="pencil-s-path1" d="M79.5796,104.728l-5.7718,2.539l1.7308,5.988l6.1392-3.314-2.0982-5.213Z" fill="#508aa5"/><path id="pencil-s-path2" d="M99.1241,19.5728L134.976,31.755M99.1241,19.5728l2.9389-6.2012c3.043-6.42146,11.383-9.63168,18.627-7.1702l9.619,3.26839c7.244,2.46151,10.649,9.66251,7.606,16.08401l-2.939,6.2012M99.1241,19.5728L92.879,32.7502m42.097-.9952l-6.245,13.1774M92.879,32.7502l35.852,12.1822M92.879,32.7502L70.2864,80.4214m58.4446-35.489L106.139,92.6036M70.2864,80.4214l-2.2001,4.6423c-1.0809,2.2807-1.3812,4.7682-.8636,7.1528L72.701,117.455c.1261.581.8934.842,1.4588.496L98.7231,102.92c2.3209-1.42,4.1349-3.3934,5.2149-5.6741l2.201-4.6423M70.2864,80.4214L106.139,92.6036M73.8078,107.267l5.7718-2.539l2.0982,5.213-6.1392,3.314-1.7308-5.988Z" fill="none" stroke="#508aa5" stroke-width="10"/></g></g></g><g id="pencil-s-g1" transform="matrix(.354286 0 0 0.354286 84.771429 99.2)"><g id="pencil-s-g2" transform="matrix(.3 0 0 0.3-18.12243-25.905895)" opacity="0.7" mask="url(#pencil-s-mask1)"><mask id="pencil-s-mask1" mask-type="alpha" x="-150%" y="-150%" height="400%" width="400%"><g id="pencil-s-path5_tr" transform="translate(135.33781,207.03926) rotate(720)"><path id="pencil-s-path5" d="M78.37454,207.03926c0-31.45994,25.50332-56.96327,56.96327-56.96327s56.96327,25.50332,56.96327,56.96327-25.50332,56.96327-56.96327,56.96327-56.96327-25.50332-56.96327-56.96327Zm89.23546-4.715c-.16775-.93858-1.05962-1.56734-2-1.41h-.06c-4.15414.71597-8.30501-1.28258-10.33588-4.97651s-1.49439-8.26953,1.33588-11.39349c.33036-.3301.51598-.77798.51598-1.245s-.18561-.9149-.51598-1.245l-.11-.1c-2.70671-2.31865-5.78705-4.16144-9.11-5.45-.43613-.17299-.92328-.16468-1.35326.02308s-.76719.53944-.93674.97692v.06c-1.40364,3.98681-5.18789,6.63916-9.41438,6.59848s-7.95898-2.76539-9.28562-6.77848c-.13404-.44903-.44162-.82607-.85458-1.04757s-.8972-.26916-1.34542-.13243h-.11c-3.26392,1.21388-6.31249,2.94242-9.03,5.12-.37331.28196-.619.70095-.6828,1.16441s.05956.93325.3428,1.30559l.1.12c2.68294,3.2243,3.03751,7.79124.8844,11.39101s-6.34454,5.44763-10.4544,4.60899c-.45624-.10445-.9353-.02286-1.33126.22672s-.67619.6466-.77874,1.10328v.09c-.55386,3.43784-.55386,6.94217,0,10.38.06433.46505.31181.88512.68739,1.16681s.84815.40164,1.31261.33319h.11c4.15414-.71597,8.30501,1.28258,10.33588,4.97651s1.49439,8.26953-1.33588,11.39349c-.33036.3301-.51598.77798-.51598,1.245s.18561.9149.51598,1.245l.11.1c2.70914,2.30768,5.7893,4.14023,9.11,5.42.43613.17299.92328.16468,1.35326-.02308s.76719-.53944.93674-.97692v-.06c1.40815-3.97311,5.18194-6.61524,9.39704-6.57914s7.94308,2.7425,9.28296,6.73914c.13404.44903.44162.82607.85458,1.04757s.8972.26916,1.34542.13243h.11c3.30375-1.22537,6.38706-2.97809,9.13-5.19.37164-.28659.61343-.70974.67164-1.17542s-.07198-.93533-.36164-1.30458l-.1-.12c-2.83001-3.19588-3.28744-7.84789-1.13412-11.53378s6.43037-5.57199,10.60412-4.67622c.93041.23341,1.87421-.33019,2.11-1.26v-.09c.5347-3.37898.5347-6.82102,0-10.2Zm-41.67,4.69c0-5.197,4.213-9.41,9.41-9.41s9.41,4.213,9.41,9.41-4.213,9.41-9.41,9.41-9.41-4.213-9.41-9.41Z" transform="translate(-135.33781,-207.03926)" fill="#d2dbed" stroke-width="0"/></g></mask></g><g id="pencil-s-path6_tr" transform="translate(11.12,29.9) rotate(-720)"/></g><!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

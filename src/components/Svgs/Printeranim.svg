@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="eQ8HG1WVg691" viewBox="0 0 148 125" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="68e1cf58b5fa492d947bc28de9f02e8b" export-id="3bd81b6668e042409256111359b1788e" cached="false">
+<style><![CDATA[
+<!-- #eQ8HG1WVg691{pointer-events: all}#eQ8HG1WVg691:hover #eQ8HG1WVg695_to {animation: eQ8HG1WVg695_to__to 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg695_to__to { 0% {transform: translate(73.5px,20px)} 100% {transform: translate(73.5px,27.247088px)}} #eQ8HG1WVg691:hover #eQ8HG1WVg695_ts {animation: eQ8HG1WVg695_ts__ts 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg695_ts__ts { 0% {transform: scale(1,1)} 100% {transform: scale(1,0.212671)}} #eQ8HG1WVg691:hover #eQ8HG1WVg696_to {animation: eQ8HG1WVg696_to__to 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg696_to__to { 0% {transform: translate(73.5px,77.882377px)} 100% {transform: translate(73.5px,99.5px)}} #eQ8HG1WVg691:hover #eQ8HG1WVg696_ts {animation: eQ8HG1WVg696_ts__ts 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg696_ts__ts { 0% {transform: scale(1,0.067433)} 100% {transform: scale(1,1)}} #eQ8HG1WVg691:hover #eQ8HG1WVg6914_tr {animation: eQ8HG1WVg6914_tr__tr 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg6914_tr__tr { 0% {transform: translate(135.33781px,207.03926px) rotate(720deg);animation-timing-function: cubic-bezier(0.415,0.08,0.115,0.955)} 100% {transform: translate(135.33781px,207.03926px) rotate(626.493506deg)}} #eQ8HG1WVg691:hover #eQ8HG1WVg6914 {animation: eQ8HG1WVg6914_f_p 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg6914_f_p { 0% {fill: #d2dbed} 100% {fill: #d2dbed}} #eQ8HG1WVg691:hover #eQ8HG1WVg6915_tr {animation: eQ8HG1WVg6915_tr__tr 1000ms linear 1 normal forwards}@keyframes eQ8HG1WVg6915_tr__tr { 0% {transform: translate(11.12px,29.9px) rotate(-720deg);animation-timing-function: cubic-bezier(0.415,0.08,0.115,0.955)} 100% {transform: translate(11.12px,29.9px) rotate(-626.493506deg)}} -->
+]]></style>
+<defs><linearGradient id="eQ8HG1WVg698-fill" x1="0.5" y1="0" x2="0.5" y2="1" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="eQ8HG1WVg698-fill-0" offset="0%" stop-color="rgba(255,255,255,0)"/><stop id="eQ8HG1WVg698-fill-1" offset="100%" stop-color="#010022"/></linearGradient></defs><g><path d="M5,56c0-11.0457,8.9543-20,20-20h98c11.046,0,20,8.9543,20,20v41c0,5.523-4.477,10-10,10h-118c-5.52284,0-10-4.477-10-10v-41Z" fill="none" stroke="#508aa5" stroke-width="10"/><path d="M40.5,76.5h67.5" fill="none" stroke="#508aa5" stroke-width="10" stroke-linecap="round"/><g id="eQ8HG1WVg695_to" transform="translate(73.5,20)"><g id="eQ8HG1WVg695_ts" transform="scale(1,1)"><path d="M44,15C44,9.47715,48.4772,5,54,5h39c5.5228,0,10,4.47715,10,10v20h-59v-20Z" transform="translate(-73.5,-20)" fill="none" stroke="#508aa5" stroke-width="10"/></g></g><g id="eQ8HG1WVg696_to" transform="translate(73.5,77.882377)"><g id="eQ8HG1WVg696_ts" transform="scale(1,0.067433)"><path d="M103,110c0,5.523-4.4772,10-10,10h-39c-5.5228,0-10-4.477-10-10v-31h59v31Z" transform="translate(-73.5,-99.5)" fill="#fff" stroke="#508aa5" stroke-width="10"/></g></g><ellipse rx="4.5" ry="4" transform="translate(114.5 59)" fill="#508aa5"/></g>Code injected by live-server
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
