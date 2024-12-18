@@ -5,11 +5,11 @@ export default function Product({ items }) {
     <>
       <div className={styles.body}>
         <div className={styles.wrapper}>
-          <div className={styles.image}></div>
           <div className={styles.smallbox}>small box 1</div>
           <div className={styles.smallbox}>small box 2</div>
-          <div className={styles.smallbox}>small box 3</div>
+          
         </div>
+        <div className={styles.image}></div>
       </div>
 
       {/* <div className={styles.containerbig}>
