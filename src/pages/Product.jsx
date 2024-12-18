@@ -1,6 +1,6 @@
 import styles from "../styles/Product.module.css";
 
-export default function Product() {
+export default function Product({ items }) {
   return (
     <>
       <div className={styles.body}>
@@ -13,7 +13,6 @@ export default function Product() {
           <div className={styles.smallbox}>small box 2</div>
           <div className={styles.smallbox}>small box 3</div>
         </div>
-        <div className={styles.container}></div>
       </div>
 
       {/* <div className={styles.containerbig}>

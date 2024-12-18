@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
 import Catagories from "./Catagories.jsx";
 import LogoLG from "./LogoLG.jsx";
-import LogoMD from "./LogoMD.jsx";
+import Hamburger from "./Hamburger.jsx";
 import Signup from "./Signup.jsx";
 import Cart from "./Cart.jsx";
 import Box from "./Box.jsx";
+
 // import Menu from "./Menu";
 
 export default function Navbar() {
@@ -16,6 +17,7 @@ export default function Navbar() {
         <Link to="/" className={styles.link}>
           <p className={styles.subTitle}>
             <LogoLG />
+            <Hamburger />
           </p>
         </Link>
         <Link to="/products" className={styles.link}>
