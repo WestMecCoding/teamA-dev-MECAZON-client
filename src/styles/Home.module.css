@@ -1,3 +1,29 @@
+.header {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+@keyframes expand {
+  from {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  to {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes shrink {
+  from {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
+  to {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+}
+
 .layoutContainer {
     display: flex; 
     gap: 20px;
@@ -33,10 +59,25 @@
     margin:auto;
     border-radius: 15px;
     border: 5px solid #f78e11;
-    background-image: url(../components/MecazonProductImages/backpacks/blue-backpack.png);
+    background-image: url(../components/ujy7jz93.bmp);
     background-position: center center;
     background-size: cover;
+    transition: transform 0.5s ease;
+    animation: 0.5s expand ease-in;
+    cursor:pointer;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
 
+  .bigDiv:hover {
+    transform: scale(0.9);
+    animation: 0.5s shrink ease-in;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+    .divTitle {
+      font-size: 2.4rem;
+      padding: 7px;
+      text-decoration: underline;
+      color: #f78e11;
+    }
   }
   
   .smallDiv {
@@ -44,40 +85,56 @@
     margin:auto;
     padding:15px;
     width:500px;
-    height:250px;
+    height:350px;
     border-radius: 15px;
     border: 5px solid #f78e11;
+    transition: transform 0.5s ease;
+    animation: 0.5s expand ease-in;
+    cursor:pointer;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
 
+  .smallDiv:hover {
+    transform: scale(0.9);
+    animation: 0.5s shrink ease-in;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+    .divTitle {
+      font-size: 2.4rem;
+      padding: 7px;
+      text-decoration: underline;
+      color: #f78e11;
+    }
   }
   
   .smallDiv:nth-child(2) {
     grid-column: 2 / 3; 
     grid-row: 1 / 2; 
-    background-image: url(../components/MecazonProductImages/carryOnBag/carryonbag.png);
+    background-image: url(../components/b4efkbz9.bmp);
     background-position: center center;
-    background-size:75%;
+    background-size: cover;
   }
   
   .smallDiv:nth-child(3) {
     grid-column: 2 / 3;
     grid-row: 2 / 3; 
-    background-image: url(../components/MecazonProductImages/mouse/mouse.png);
+    background-image: url(../components/1cp37eae.bmp);
     background-position: center center;
     background-size:cover;
   }
 
+
   .divTitle {
-    color:#f78e11;
+    color:black;
     float:left;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
     padding:5px;
     background-color:#0E3249;
     border-radius: 5px;
-      background-color: rgba(14, 50, 73, 0.5);
-    
+    background-color: rgba(14, 50, 73, 0.5);
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
   }
   
   /* .sidebar {
@@ -126,65 +183,95 @@
   @media (max-width: 1024px) {
     .layoutContainer {
       flex-direction: column; 
+      height:500px;
+      max-width: 100%;
+      overflow-x: hidden;
     }
   
     .gridContainer {
-      width: 90%; 
-      grid-template-columns: 2fr 1fr; 
+      display:flex;
+      flex-direction: column;
+      width: 100%; 
       grid-template-rows: auto auto; 
       padding: 10px;
+      width:500px;
+      height:500px;
       margin:auto;
       overflow-x:hidden;
     }
+
+    .bigDiv {
+      /* margin:auto; */
+      width:75%;
+      height:50%;
+      background-size: cover;
+      /* background-image: url("../components/MecazonProductImages/backpacks/blue-backpack.png");
+      background-size: auto; */
+    }
+
+    .smallDiv {
+      width:75%;
+      height:50%;
+      background-size: auto;
+    }
+    .divTitle {
+      color:#f78e11;
+      float:left;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1rem;
+      padding:5px;
+      background-color:#0E3249;
+      border-radius: 5px;
+      background-color: rgba(14, 50, 73, 0.5);
+    }
   
-    .sidebar {
+    /* .sidebar {
       flex-direction: row;
       gap: 10px; 
       width: 90%; 
-      /* overflow:hidden; */
       margin:auto;
-    }
+    } */
   
-    .sidebarItem {
-      flex: 1 1 calc(33.33% - 50px); /* Make items flexible with a max width */
+    /* .sidebarItem {
+      flex: 1 1 calc(33.33% - 50px); 
       margin-bottom: 0; 
       overflow:hidden;
-    }
-    /* .exTwo {
-      border: 5px solid black;
-      width:50px;
-      height:50px;
     } */
   }
   
   /* Small screens (phones, 480px and up) */
   @media (max-width: 768px) {
-    .layoutContainer {
-      flex-direction: column; /* Stack everything vertically */
+    /* .layoutContainer {
+      flex-direction: column; 
       gap: 10px;
       height:500px;
-      /* overflow:hidden; */
+     
       margin:auto;
       border: 1px solid black;
-    }
+    } */
 
     .gridContainer {
       display:flex;
       flex-direction: column;
-width:500px;
-height:500px;
+/* width:500px;
+height:500px; */
 grid-template-columns: 2fr 1fr; 
+grid-template-rows: auto;
     }
   
     .bigDiv {
-      /* display: block;  */
-      /* width: 100%;  */
-      padding: 20px;
+      /* padding: 20px; */
       margin:  auto; 
+      width:50%;
+      height:500px;
     }
 
     .smallDiv {
-      display:none;
+      margin: auto;
+      width:50%;
+      height:500px;
     }
   
     /* .sidebar {
@@ -201,7 +288,7 @@ grid-template-columns: 2fr 1fr;
         height:auto;
     } */
 
-    #exOne {
+    /* #exOne {
       border: 5px solid black;
       width:100%;
       height:100px;
@@ -212,5 +299,5 @@ grid-template-columns: 2fr 1fr;
         border: 1px solid black;
         width:50px;
         height:50px;
-    }
+    } */
   }
