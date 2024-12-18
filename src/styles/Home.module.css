@@ -1,3 +1,21 @@
+@keyframes expand {
+  from {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  to {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes shrink {
+  from {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  }
+  to {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+}
+
 .layoutContainer {
     display: flex; 
     gap: 20px;
@@ -37,11 +55,20 @@
     background-position: center center;
     background-size: cover;
     transition: transform 0.5s ease;
+    animation: 0.5s expand ease-in;
     cursor:pointer;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
   }
 
   .bigDiv:hover {
     transform: scale(0.9);
+    animation: 0.5s shrink ease-in;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+    .divTitle {
+      font-size: 2.4rem;
+      padding: 7px;
+      text-decoration: underline;
+    }
   }
   
   .smallDiv {
@@ -53,11 +80,20 @@
     border-radius: 15px;
     border: 5px solid #f78e11;
     transition: transform 0.5s ease;
+    animation: 0.5s expand ease-in;
     cursor:pointer;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
   }
 
   .smallDiv:hover {
     transform: scale(0.9);
+    animation: 0.5s shrink ease-in;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+    .divTitle {
+      font-size: 2.4rem;
+      padding: 7px;
+      text-decoration: underline;
+    }
   }
   
   .smallDiv:nth-child(2) {
@@ -76,10 +112,11 @@
     background-size:cover;
   }
 
+
   .divTitle {
     color:#f78e11;
     float:left;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
@@ -87,6 +124,7 @@
     background-color:#0E3249;
     border-radius: 5px;
     background-color: rgba(14, 50, 73, 0.5);
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
   }
   
   /* .sidebar {
